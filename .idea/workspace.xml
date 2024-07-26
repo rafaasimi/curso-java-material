@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5346be2a-8226-4f05-a568-9d6bc9c7dacd" name="Changes" comment="alterado diretorios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/variaveis/Variaveis.java" afterDir="false" />
+    <list default="true" id="5346be2a-8226-4f05-a568-9d6bc9c7dacd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tiposprimitivos/TiposPrimitivos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.TiposPrimitivos.executor": "Run",
     "Application.Variaveis.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -57,13 +59,26 @@
       <recent name="J:\www\material-curso-java\pratica" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Variaveis">
+  <component name="RunManager" selected="Application.TiposPrimitivos">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.rafaelsimionato.Main" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.rafaelsimionato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiposPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tiposprimitivos.TiposPrimitivos" />
+      <module name="pratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tiposprimitivos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TiposPrimitivos" />
         <item itemvalue="Application.Variaveis" />
         <item itemvalue="Application.Main" />
       </list>
@@ -124,13 +140,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722000514961</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aula: variaveis">
+      <option name="closed" value="true" />
+      <created>1722003457357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722003457357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="arquivos iniciais" />
     <MESSAGE value="add readme" />
     <MESSAGE value="alterado diretorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="alterado diretorios" />
+    <MESSAGE value="aula: variaveis" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula: variaveis" />
   </component>
 </project>
