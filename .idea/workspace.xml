@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5346be2a-8226-4f05-a568-9d6bc9c7dacd" name="Changes" comment="aula: tipos primitivos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/casting/Casting.java" afterDir="false" />
+    <list default="true" id="5346be2a-8226-4f05-a568-9d6bc9c7dacd" name="Changes" comment="aula: conversão de tipos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Io.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Casting.executor": "Run",
+    "Application.Io.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operadores.executor": "Run",
     "Application.TiposPrimitivos.executor": "Run",
@@ -60,7 +61,7 @@
       <recent name="J:\www\material-curso-java\pratica" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Casting">
+  <component name="RunManager" selected="Application.Io">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="casting.Casting" />
       <module name="pratica" />
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.rafaelsimionato.Main" />
+    <configuration name="Io" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Io" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.rafaelsimionato.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Io" />
         <item itemvalue="Application.Casting" />
         <item itemvalue="Application.Operadores" />
         <item itemvalue="Application.TiposPrimitivos" />
         <item itemvalue="Application.Variaveis" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722015565951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aula: conversão de tipos">
+      <option name="closed" value="true" />
+      <created>1722105184791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722105184791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +203,7 @@
     <MESSAGE value="alterado diretorios" />
     <MESSAGE value="aula: variaveis" />
     <MESSAGE value="aula: tipos primitivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula: tipos primitivos" />
+    <MESSAGE value="aula: conversão de tipos" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula: conversão de tipos" />
   </component>
 </project>
