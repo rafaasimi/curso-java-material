@@ -1,4 +1,4 @@
-package DiasDeIdade;
+package dias_de_idade;
 
 import java.util.Scanner;
 
