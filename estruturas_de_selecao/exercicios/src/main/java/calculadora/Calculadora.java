@@ -1,4 +1,4 @@
-package categoria;
+package calculadora;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * (adição, subtração, multiplicação ou divisão) e retorne o resultado
  * dessa operação entre os dois números.
  */
-public class Categoria {
+public class Calculadora {
 
     public static void main(String[] args) {
 
