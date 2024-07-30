@@ -32,6 +32,7 @@ public class ImprimirMaiorNumero {
 
         } while (controle);
 
+        scanner.close();
         System.out.println(maiorNumero);
 
     }
