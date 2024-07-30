@@ -1,8 +1,8 @@
-package dev.rafaelsimionato;
+package estrutura_while;
 
 import java.util.Scanner;
 
-public class Main {
+public class EstruturaWhile {
     public static void main(String[] args) {
 
         int numero = 10, tentativas = 3;
