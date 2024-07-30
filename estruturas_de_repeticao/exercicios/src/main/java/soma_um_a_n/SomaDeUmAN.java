@@ -18,6 +18,8 @@ public class SomaDeUmAN {
         System.out.println("Informe um número para somar: ");
         int numero = scanner.nextInt();
 
+        scanner.close();
+
         int soma = 0;
         for (int i = 1; i <= numero; i++) {
             soma += i;
