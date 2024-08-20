@@ -1,7 +1,15 @@
 package classes;
 
 public class Casa {
+    // Sem inicialização
+    // tipos primitivos: iniciam com seus valores padrão definidos pela linguagem
+    // tipos de referencia (Ex: String), são inicializados como null
+
+    // valor padrão: false
     boolean inteligente;
+
+    // valor padrão: null
+    String nome;
 
     public Casa() {}
 
