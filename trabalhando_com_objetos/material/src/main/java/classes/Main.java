@@ -1,5 +1,7 @@
 package classes;
 
+import dev.rafaelsimionato.moradias.Casa;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,8 +10,8 @@ public class Main {
         Casa casa2 = new Casa(true);
         Casa casa3 = new Casa(true);
 
-        casa1.inteligente = true;
-        casa1.acenderLuz();
+        System.out.println(casa1.inteligente);
+        System.out.println(casa1.nome);
 
         casa2.acenderLuz();
         casa3.acenderLuz();

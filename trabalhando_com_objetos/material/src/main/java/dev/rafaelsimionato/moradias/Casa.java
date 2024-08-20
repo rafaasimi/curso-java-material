@@ -1,4 +1,4 @@
-package classes;
+package dev.rafaelsimionato.moradias;
 
 public class Casa {
     // Sem inicialização
