@@ -6,10 +6,10 @@ public class Casa {
     // tipos de referencia (Ex: String), são inicializados como null
 
     // valor padrão: false
-    boolean inteligente;
+    public boolean inteligente;
 
     // valor padrão: null
-    String nome;
+    public String nome;
 
     public Casa() {}
 
@@ -20,7 +20,7 @@ public class Casa {
     // void: não possuí retorno
     // int: retorna um valor inteiro
     // double / String / ...
-    int acenderLuz() {
+    public int acenderLuz() {
         if (inteligente) {
             System.out.println("Comando de voz");
         } else {
