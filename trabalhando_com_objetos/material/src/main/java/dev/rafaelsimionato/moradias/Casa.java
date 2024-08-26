@@ -6,7 +6,7 @@ public class Casa {
     // tipos de referencia (Ex: String), são inicializados como null
 
     // valor padrão: false
-    public boolean inteligente;
+    public Boolean inteligente = false;
 
     // valor padrão: null
     public String nome;
