@@ -18,7 +18,10 @@ public class Main {
 
 //        Double soma = new Matematica().soma(2, 5);
         Double soma = Matematica.soma(2, 5);
-        System.out.println(soma);
+        Double somaNaoEstatica = new Matematica().somaNaoEstatica(10, 5);
+        System.out.println("Limite da soma: " + Matematica.limite);
+        System.out.println("Minha soma: " + soma);
+        System.out.println("Minha somaNaoEstatica: " + somaNaoEstatica);
 
     }
 
