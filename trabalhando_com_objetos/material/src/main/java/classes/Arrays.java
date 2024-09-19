@@ -21,7 +21,7 @@ public class Arrays {
 
         // Arrays de Objetos
         // Saída: [classes.Gato@eed1f14, classes.Gato@7229724f]
-        Gato[] gatos = {new Gato("Leia"), new Gato("Rey")};
+        classes.Gato[] gatos = {new Gato("Leia"), new Gato("Rey")};
         System.out.println(java.util.Arrays.toString(gatos));
     }
 
