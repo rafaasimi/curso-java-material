@@ -2,6 +2,7 @@ package classes;
 
 import dev.rafaelsimionato.moradias.Casa;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Main {
@@ -31,9 +32,23 @@ public class Main {
         Usuario u2 = new Usuario();
         u2.username = "u1";
 
+        Usuario u3 = new Usuario();
+        u3.username = "u1";
+
+        Usuario u4 = new Usuario();
+        u4.username = "u1";
+
         System.out.println(u1.equals(u2));
         System.out.println(u1);
         System.out.println(u2);
+
+        System.out.println("String 1".equals("String 1"));
+
+        Usuario[] array1 = { u1, u2 };
+        Usuario[] array2 = { u3, u4 };
+
+//        System.out.println(array1.equals(array2));
+        System.out.println("Comparando arrays: " + Arrays.equals(array1, array2));
 
     }
 
