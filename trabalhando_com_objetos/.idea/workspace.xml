@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f999888-fd31-4488-896a-23295500d7af" name="Changes" comment="aula: igualdade entre objetos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/material/src/main/java/classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/material/src/main/java/classes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/trabalhando_com_objetos/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trabalhando_com_objetos/classes/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="5f999888-fd31-4488-896a-23295500d7af" name="Changes" comment="aula: igualdade entre arrays" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1726750141445</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aula: igualdade entre arrays">
+      <option name="closed" value="true" />
+      <created>1726834335281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726834335281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aula: igualdade entre objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula: igualdade entre objetos" />
+    <MESSAGE value="aula: igualdade entre arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula: igualdade entre arrays" />
   </component>
 </project>
