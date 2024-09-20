@@ -1,5 +1,12 @@
+import carro.Carro;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Carro meuCarro = new Carro("Fusca", 2020, "Azul");
+
+        meuCarro.acelerar();
+
+        System.out.println(meuCarro.getDetalhes());
     }
 }
