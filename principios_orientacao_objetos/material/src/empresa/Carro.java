@@ -9,6 +9,18 @@ class Carro {
     private Motor motor;
     private String airbag;
 
+    public Carro() {
+        this.motor = new Motor();
+        this.volante = "1";
+        this.pedais = "3";
+    }
+
+//    private Carro() {
+//        this.motor = new Motor();
+//        this.volante = "1";
+//        this.pedais = "3";
+//    }
+
     public void ligarCarro() {
         System.out.println("Ligando o carro...");
     }
