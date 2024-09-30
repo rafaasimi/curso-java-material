@@ -6,6 +6,10 @@ public class Main {
         carro.acelerar();
         carro.frear();
 
-        System.out.println(carro.volante);
+        carro.setVolante("1");
+        System.out.println(carro.getVolante());
+
+
+//        System.out.println(carro.volante);
     }
 }

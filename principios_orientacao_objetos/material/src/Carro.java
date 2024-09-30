@@ -1,7 +1,8 @@
 public class Carro {
 
-    public String volante;
-    public String pedais;
+    // Getters e Setters
+    private String volante;
+    private String pedais;
 
     private Motor motor;
     private String airbag;
@@ -24,5 +25,37 @@ public class Carro {
 
     private void ativarAirbags() {
         System.out.println("Ativando airbags...");
+    }
+
+    public String getVolante() {
+        return volante;
+    }
+
+    public void setVolante(String volante) {
+        this.volante = volante;
+    }
+
+    public String getPedais() {
+        return pedais;
+    }
+
+    public void setPedais(String pedais) {
+        this.pedais = pedais;
+    }
+
+    public Motor getMotor() {
+        return motor;
+    }
+
+    public void setMotor(Motor motor) {
+        this.motor = motor;
+    }
+
+    public String getAirbag() {
+        return airbag;
+    }
+
+    public void setAirbag(String airbag) {
+        this.airbag = airbag;
     }
 }
