@@ -1,4 +1,6 @@
-public class Carro {
+package empresa;
+
+class Carro {
 
     // Getters e Setters
     private String volante;
