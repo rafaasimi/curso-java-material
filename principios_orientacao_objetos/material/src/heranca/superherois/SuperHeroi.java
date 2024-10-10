@@ -1,15 +1,16 @@
-package heranca;
+package heranca.superherois;
 
 public class SuperHeroi {
 
-    private String traje;
-    private String[] superPoderes;
+    protected String traje;
+    protected String[] superPoderes;
 
     public SuperHeroi(String traje, String[] superPoderes) {
         this.traje = traje;
         this.superPoderes = superPoderes;
     }
 
+//    protected void usarSuperPoder(int index) {
     public void usarSuperPoder(int index) {
         System.out.println("Usando o super poder: " + superPoderes[index]);
     }

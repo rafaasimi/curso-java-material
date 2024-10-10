@@ -1,5 +1,10 @@
 package heranca;
 
+import heranca.superherois.HomemAranha;
+import heranca.superherois.HomemDeFerro;
+import heranca.superherois.SuperHeroi;
+import heranca.superherois.ViuvaNegra;
+
 public class Main {
 
     public static void main(String[] args) {

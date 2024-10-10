@@ -1,4 +1,4 @@
-package heranca;
+package heranca.superherois;
 
 public class ViuvaNegra extends SuperHeroi {
 
