@@ -24,6 +24,14 @@ public class Main {
     }
 
     static void validar(SuperHeroi[] superHerois) {
+
+//        No Java, todas as classes são subclasses diretas ou indiretas
+//        da classe Object. Por isso, elas herdam métodos da classe Object.
+
+//        if (superHerois[0] instanceof Object) {
+//            // true
+//        }
+
         if (superHerois[0] instanceof HomemAranha) {
             System.out.println("Lógica de validação do Homem Aranha!");
         }
