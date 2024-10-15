@@ -12,7 +12,6 @@ public class HomemDeFerro extends SuperHeroi{
     public void usarSuperPoder(int index) {
         System.out.println("Falar com Jarvis");
         System.out.println(Arrays.toString(super.superPoderes));
-        super.usarSuperPoder(index);
-
+//        super.usarSuperPoder(index);
     }
 }

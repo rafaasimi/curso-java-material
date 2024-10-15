@@ -13,6 +13,7 @@ public class Main {
                 new HomemAranha("Roupa vermelha com teias", new String[]{"Lançar teia"}),
                 new HomemDeFerro("Armadura de ferro vermelha", new String[]{"Voar", "Misseis"}),
                 new ViuvaNegra("Roupa preta", new String[]{"Luta"}),
+//                new SuperHeroi("Roupa preta", new String[]{"Luta"})
         };
 
         validar(superHerois);

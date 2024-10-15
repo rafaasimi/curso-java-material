@@ -7,4 +7,8 @@ public class HomemAranha extends SuperHeroi{
 
         // super.usarSuperPoder(2);
     }
+
+    public void usarSuperPoder(int index) {
+        System.out.println(superPoderes[index]);
+    }
 }

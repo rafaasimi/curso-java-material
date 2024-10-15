@@ -1,6 +1,6 @@
 package heranca.superherois;
 
-public class SuperHeroi {
+public abstract class SuperHeroi {
 
     protected String traje;
     protected String[] superPoderes;
@@ -11,9 +11,11 @@ public class SuperHeroi {
     }
 
 //    protected void usarSuperPoder(int index) {
-    public void usarSuperPoder(int index) {
-        System.out.println("Usando o super poder: " + superPoderes[index]);
-    }
+//    public void usarSuperPoder(int index) {
+//        System.out.println("Usando o super poder: " + superPoderes[index]);
+//    }
+
+    public abstract void usarSuperPoder(int index);
 
     public String getTraje() {
         return traje;
