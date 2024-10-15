@@ -1,9 +1,6 @@
 package heranca;
 
-import heranca.superherois.HomemAranha;
-import heranca.superherois.HomemDeFerro;
-import heranca.superherois.SuperHeroi;
-import heranca.superherois.ViuvaNegra;
+import heranca.superherois.*;
 
 public class Main {
 
@@ -15,6 +12,9 @@ public class Main {
                 new ViuvaNegra("Roupa preta", new String[]{"Luta"}),
 //                new SuperHeroi("Roupa preta", new String[]{"Luta"})
         };
+
+        Avenger avenger = new HomemAranha("Roupa vermelha com teias", new String[]{"Lançar teia"});
+        avenger.enterBuilding();
 
         validar(superHerois);
 
