@@ -2,7 +2,7 @@ package heranca.superherois;
 
 import java.util.Arrays;
 
-public class HomemDeFerro extends SuperHeroi{
+public class HomemDeFerro extends SuperHeroi implements Avenger{
 
     public HomemDeFerro(String traje, String[] superPoderes) {
         super(traje, superPoderes);
@@ -13,5 +13,9 @@ public class HomemDeFerro extends SuperHeroi{
         System.out.println("Falar com Jarvis");
         System.out.println(Arrays.toString(super.superPoderes));
 //        super.usarSuperPoder(index);
+    }
+
+    public boolean isLeader() {
+        return true;
     }
 }

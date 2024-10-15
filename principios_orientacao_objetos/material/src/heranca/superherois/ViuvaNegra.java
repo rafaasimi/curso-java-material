@@ -1,6 +1,6 @@
 package heranca.superherois;
 
-public class ViuvaNegra extends SuperHeroi {
+public class ViuvaNegra extends SuperHeroi implements Avenger{
 
     public ViuvaNegra(String traje, String[] superPoderes) {
         super(traje, superPoderes);
@@ -8,5 +8,9 @@ public class ViuvaNegra extends SuperHeroi {
 
     public void usarSuperPoder(int index) {
         System.out.println(superPoderes[index]);
+    }
+
+    public boolean isLeader() {
+        return false;
     }
 }
