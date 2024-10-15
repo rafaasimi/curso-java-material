@@ -13,6 +13,10 @@ public class Main {
 //                new SuperHeroi("Roupa preta", new String[]{"Luta"})
         };
 
+        System.out.println(superHerois[0].tendencia);
+        System.out.println(SuperHeroi.tendencia);
+//        superHerois[0].tendencia = false;
+
         Avenger avenger = new HomemAranha("Roupa vermelha com teias", new String[]{"Lançar teia"});
         avenger.enterBuilding();
 

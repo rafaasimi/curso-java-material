@@ -1,6 +1,9 @@
 package heranca.superherois;
 
+//public final class SuperHeroi {
 public abstract class SuperHeroi {
+
+    public static final boolean tendencia = true;
 
     protected String traje;
     protected String[] superPoderes;
