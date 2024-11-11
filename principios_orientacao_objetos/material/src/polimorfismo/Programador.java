@@ -1,6 +1,8 @@
 package polimorfismo;
 
-public class Programador implements Trabalhador{
+public class Programador extends Empregado implements Trabalhador{
+
+    public String nome = "Programador";
 
     @Override
     public void trabalhar() {

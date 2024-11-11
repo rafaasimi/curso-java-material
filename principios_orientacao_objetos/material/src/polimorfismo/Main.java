@@ -12,6 +12,14 @@ public class Main {
 
         trabalhar(trabalhadores);
 
+        Empregado empregado = new Empregado();
+        Empregado programador = new Programador();
+
+//        Programador programador = new Programador();
+
+
+        System.out.println(empregado.nome);
+        System.out.println(programador.nome);
     }
 
     private static void trabalhar(Trabalhador[] trabalhadores) {
