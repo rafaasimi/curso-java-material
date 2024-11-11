@@ -6,4 +6,8 @@ public class Programador implements Trabalhador{
     public void trabalhar() {
         System.out.println("Criando programas.");
     }
+
+    public String toString(){
+        return "Programador";
+    }
 }

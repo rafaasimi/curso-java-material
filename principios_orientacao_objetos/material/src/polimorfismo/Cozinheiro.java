@@ -10,4 +10,8 @@ public class Cozinheiro implements Trabalhador{
     public void temperarComida() {
         System.out.println("Temperar comida.");
     }
+
+    public String toString(){
+        return "Cozinheiro";
+    }
 }
