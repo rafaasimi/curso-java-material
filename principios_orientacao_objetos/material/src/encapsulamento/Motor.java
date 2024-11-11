@@ -1,4 +1,4 @@
-package empresa;
+package encapsulamento;
 
 public class Motor {
 

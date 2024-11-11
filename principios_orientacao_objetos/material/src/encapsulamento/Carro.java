@@ -1,4 +1,4 @@
-package empresa;
+package encapsulamento;
 
 class Carro {
 
