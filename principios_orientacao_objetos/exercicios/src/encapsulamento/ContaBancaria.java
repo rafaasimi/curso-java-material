@@ -1,4 +1,4 @@
-package polimorfismo;
+package encapsulamento;
 
 public class ContaBancaria {
 
