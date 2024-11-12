@@ -16,5 +16,14 @@ public class Main {
 
         System.out.println(texto1 == texto2);
         // Saída: true (pois o conteúdo são iguais e o Java aproveita o valor do pool de strings)
+
+        char[] texto1Array = texto1.toCharArray();
+        for(char letra : texto1Array) {
+            if(letra == 'a') {
+                System.out.println("Encontrou a letra A.");
+            }
+        }
+
+        System.out.println(texto1Array);
     }
 }
