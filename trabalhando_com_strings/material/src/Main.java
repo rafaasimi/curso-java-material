@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -30,5 +32,8 @@ public class Main {
 
         System.out.println(texto1.toLowerCase());
         System.out.println(texto1.toUpperCase());
+
+        String[] palavras = texto1.split(" ");
+        System.out.println(Arrays.toString(palavras));
     }
 }
