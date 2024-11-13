@@ -25,5 +25,7 @@ public class Main {
         }
 
         System.out.println(texto1Array);
+        System.out.println(texto1.charAt(0));
+        System.out.println(texto1.charAt(texto1.length() - 1));
     }
 }
