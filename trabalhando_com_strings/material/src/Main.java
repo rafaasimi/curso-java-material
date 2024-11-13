@@ -35,5 +35,12 @@ public class Main {
 
         String[] palavras = texto1.split(" ");
         System.out.println(Arrays.toString(palavras));
+
+        String idade = "28";
+        Integer idadeInt = Integer.valueOf(idade);
+        String idadeStr = String.valueOf(idadeInt);
+
+        System.out.println(idadeInt);
+        System.out.println(idadeStr);
     }
 }
