@@ -6,15 +6,15 @@ public class ReversorDeString {
 
     }
 
-    static String reverter(String string) {
+    public static String reverter(String string) {
 
-            String stringReversa = "";
+        String stringReversa = "";
 
-            for(int i = string.length() - 1; i >= 0; i--) {
-                stringReversa += string.charAt(i);
-            }
+        for (int i = string.length() - 1; i >= 0; i--) {
+            stringReversa += string.charAt(i);
+        }
 
-            return stringReversa;
+        return stringReversa;
 
     }
 
