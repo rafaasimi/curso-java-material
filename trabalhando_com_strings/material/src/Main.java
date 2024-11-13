@@ -55,5 +55,18 @@ public class Main {
 
         System.out.println(builder.toString());
 
+        String nome = "Rafael";
+        String username = "rafaasimi";
+        String email = "rafaasimi@teste.com";
+
+        String textoFormatado = """
+                Olá, eu sou %s, 
+                meu usuário é o %s 
+                e meu e-mail é %s
+                """
+        .formatted(nome, username, email);
+
+        System.out.println(textoFormatado);
+
     }
 }
