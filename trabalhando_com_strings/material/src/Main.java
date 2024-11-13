@@ -42,5 +42,18 @@ public class Main {
 
         System.out.println(idadeInt);
         System.out.println(idadeStr);
+
+
+        String concatenacao = "Ela" + " é " + "muito " + "comum.";
+        System.out.println(concatenacao);
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("Ela ");
+        builder.append("é ");
+        builder.append("muito ");
+        builder.append("comum.");
+
+        System.out.println(builder.toString());
+
     }
 }
