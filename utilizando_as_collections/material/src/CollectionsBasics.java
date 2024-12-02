@@ -15,11 +15,19 @@ public class CollectionsBasics {
             add("3");
         }};
 
-        nomesArraylist.add("1");
-        nomesArraylist.add("2");
-        nomesArraylist.add("3");
+        // Adicionar elementos
+        nomesArraylist.add("4");
+        nomesArraylist.add("5");
+        nomesArraylist.add("6");
 
         System.out.println(nomesArraylist);
+
+        // Get
+        System.out.println(nomesArraylist.get(1));
+
+        // Insert
+        // Update
+        // Delete
     }
 
 }
