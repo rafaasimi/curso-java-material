@@ -25,14 +25,17 @@ public class CollectionsBasics {
         // Get
         System.out.println(nomesArraylist.get(1));
 
-        // Insert
-        System.out.println(nomesArraylist.set(0, "0"));
-        System.out.println(nomesArraylist.set(1, "1"));
-        System.out.println(nomesArraylist.set(2, "2"));
+        // Insert / Update
+        nomesArraylist.set(0, "0");
+        nomesArraylist.set(1, "1");
+        nomesArraylist.set(2, "2");
         System.out.println(nomesArraylist);
 
-        // Update
         // Delete
+        nomesArraylist.remove(1);
+        nomesArraylist.remove("6");
+
+        System.out.println(nomesArraylist);
     }
 
 }
