@@ -65,6 +65,41 @@ public class CollectionsBasics {
         // List para Array
         String[] arrayConvertido = listaConvertida.toArray(new String[0]);
         System.out.println(Arrays.toString(arrayConvertido));
+
+//        Map<String, String> mapaDeUsuarios = new HashMap<>() {{
+//            put("rafael", "Rafael");
+//            put("joao", "João");
+//            put("luiz", "Luiz");
+//        }};
+
+        Map<String, String> mapaDeUsuarios = new HashMap<>();
+        mapaDeUsuarios.put("rafael", "Rafael");
+        mapaDeUsuarios.put("joao", "João");
+        mapaDeUsuarios.put("luiz", "Luiz");
+
+        System.out.println(mapaDeUsuarios);
+
+        // Get
+        System.out.println(mapaDeUsuarios.get("rafael"));
+
+        // Update
+        mapaDeUsuarios.put("rafael", "Rafael Simionato");
+
+        System.out.println(mapaDeUsuarios);
+
+        // Remove
+        mapaDeUsuarios.remove("rafael");
+        System.out.println(mapaDeUsuarios);
+
+        // For
+        for (String valor : mapaDeUsuarios.values()) {
+            System.out.println(valor);
+        }
+
+        // For
+        for (String chave : mapaDeUsuarios.keySet()) {
+            System.out.println(chave);
+        }
     }
 
 }
