@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class CollectionsBasics {
 
@@ -55,6 +52,19 @@ public class CollectionsBasics {
             String itemAtual = it.next();
             System.out.println(itemAtual);
         }
+
+        // Conversões entre Array e ArrayList
+        List<String> listaDeNomes = List.of("Rafael", "Joao", "Luiz");
+        System.out.println(listaDeNomes);
+
+        // Array para List
+        String[] arrayDeNomes = {"Rafael", "Joao", "Luiz"};
+        List<String> listaConvertida = Arrays.asList(arrayDeNomes);
+        System.out.println(listaConvertida);
+
+        // List para Array
+        String[] arrayConvertido = listaConvertida.toArray(new String[0]);
+        System.out.println(Arrays.toString(arrayConvertido));
     }
 
 }
