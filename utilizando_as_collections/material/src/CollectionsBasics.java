@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class CollectionsBasics {
@@ -41,6 +42,19 @@ public class CollectionsBasics {
         // Sort
         Collections.sort(nomesArraylist);
         System.out.println(nomesArraylist);
+
+        // Percorrendo um ArrayList
+        // For
+        for (String nome : nomesArraylist) {
+            System.out.println(nome);
+        }
+
+        // Iterator
+        Iterator<String> it = nomesArraylist.iterator();
+        while (it.hasNext()) {
+            String itemAtual = it.next();
+            System.out.println(itemAtual);
+        }
     }
 
 }
