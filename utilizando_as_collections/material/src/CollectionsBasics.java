@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CollectionsBasics {
@@ -26,15 +27,19 @@ public class CollectionsBasics {
         System.out.println(nomesArraylist.get(1));
 
         // Insert / Update
-        nomesArraylist.set(0, "0");
-        nomesArraylist.set(1, "1");
-        nomesArraylist.set(2, "2");
+        nomesArraylist.set(0, "3");
+        nomesArraylist.set(1, "2");
+        nomesArraylist.set(2, "1");
         System.out.println(nomesArraylist);
 
         // Delete
         nomesArraylist.remove(1);
         nomesArraylist.remove("6");
 
+        System.out.println(nomesArraylist);
+
+        // Sort
+        Collections.sort(nomesArraylist);
         System.out.println(nomesArraylist);
     }
 
