@@ -17,9 +17,13 @@ public class ExceptionsBasics {
 
         try {
             System.out.println(nomes.get(1));
+
+            int resultado = 10/0;
         } catch(IndexOutOfBoundsException ex) {
             // ex.printStackTrace();
             System.out.println("O indice informado não é válido.");
+        } catch (ArithmeticException ex) {
+            System.out.println("Operação aritimética inválida.");
         }
     }
 
