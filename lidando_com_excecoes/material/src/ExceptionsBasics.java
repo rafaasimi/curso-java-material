@@ -9,16 +9,29 @@ public class ExceptionsBasics {
         nomes.add("Rafael");
 
         getNomes(nomes);
-        dividir(1, 0);
+//        dividir(1, 0);
+        dividirNovo(1, 0);
     }
 
     private static int dividir(int i, int j) throws Exception {
         if(j == 0) {
+            // Exceção checável (Exception)
            throw new Exception("Não é possível realizar divisão por zero.");
         }
 
         return i / j;
     }
+
+    private static int dividirNovo(int i, int j) throws Exception {
+        if(j == 0) {
+            // Exceção não checável (RunTimeException)
+            throw new IllegalArgumentException("Não é possível realizar divisão por zero.");
+        }
+
+        return i / j;
+    }
+
+
 
     private static void getNomes(List<String> nomes) {
         System.out.println(nomes.get(0));
