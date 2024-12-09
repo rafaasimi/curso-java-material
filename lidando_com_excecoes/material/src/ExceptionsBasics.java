@@ -8,13 +8,19 @@ public class ExceptionsBasics {
         List<String> nomes = new ArrayList<>();
         nomes.add("Rafael");
 
+        getNomes(nomes);
+
+    }
+
+    private static void getNomes(List<String> nomes) {
+        System.out.println(nomes.get(0));
+
         try {
-            System.out.println(nomes.get(0));
             System.out.println(nomes.get(1));
-        } catch (e) {
-
+        } catch(Exception ex) {
+            // ex.printStackTrace();
+            System.out.println("O indice informado não é válido.");
         }
-
     }
 
 }
